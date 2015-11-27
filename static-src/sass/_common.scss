@@ -1,0 +1,26 @@
+
+
+.container {
+
+  header {
+    height: 500px;
+    padding: 165px 0 0;
+
+    .logo {
+      background-image: url('../images/open_transport_logo.png');
+      width: 244px;
+      height: 55px;
+      margin: 0 auto;
+    }
+
+    .text {
+      font-weight: 200;
+      text-align: center;
+      max-width: 577px;
+      margin: 0 auto;
+      margin-top: 65px;
+      font-size: 22px;
+      line-height: 32px;
+    }
+  }
+}
