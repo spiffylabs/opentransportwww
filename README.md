@@ -6,4 +6,5 @@ Hugo template files and content for Open Transport website
 
 1. Install Hugo: http://gohugo.io/ (easy to install since it's a Go binary)
 2. Clone this repo
-3. CD to repo and run: `hugo server --watch`
+3. CD to repo and install build dependencies : `npm install`
+3. Run: `npm start`

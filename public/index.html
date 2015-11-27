@@ -11,7 +11,8 @@
     <title>Open Transport</title>
     <link rel="canonical" href="http://localhost:1313/">
 
-    
+    <link href="/css/main.css" rel="stylesheet">
+
 
 </head>
 
@@ -19,7 +20,11 @@
 <div class="container">
   open transport
 </div>
+<script src="/js/main.js"></script>
 
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
 

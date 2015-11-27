@@ -1,0 +1,31 @@
+{
+  "name": "opentransport",
+  "author": "Open Transport",
+  "version": "1.0.0",
+  "description": "Open Transport builds tools - web and mobile apps - for transport and on-demand industry",
+  "scripts": {
+    "hugo:b": "hugo",
+    "hugo:w": "hugo server -w",
+
+    "hugo:server": "hugo server --watch",
+    "css:build": "node-sass --include-path scss static-src/sass/_main.scss static/css/main.css",
+    "css:minify": "cleancss static/css/main.css -o static/css/main.min.css",
+    "css:watch": "onchange 'static-src/sass/' -- npm run css:build",
+    "js:build": "uglifyjs static-src/js/*.js -b -o static/js/main.js",
+    "js:minify": "uglifyjs static-src/js/*.js -c -o static/js/main.min.js",
+    "js:watch": "onchange 'static-src/js/' -- npm run js:build",
+    "js:minify:watch": "onchange 'static-src/js/' -- npm run js:minify",
+
+    "build": "npm run css:build && npm run css:minify && npm run js:build && npm run js:minify",
+    "prewatch": "npm run build",
+    "watch": "parallelshell 'npm run css:watch' 'npm run js:watch' 'npm run js:minify:watch' 'npm run hugo:w'",
+    "start": "npm run watch"
+  },
+  "devDependencies": {
+    "clean-css": "^3.4.8",
+    "node-sass": "^3.4.2",
+    "onchange": "^2.0.0",
+    "parallelshell": "^2.0.0",
+    "uglify-js": "^2.6.1"
+  }
+}
