@@ -1,7 +1,6 @@
 
 
-.container {
-
+.landing-page {
   header {
     height: 500px;
     padding: 165px 0 0;
@@ -22,5 +21,14 @@
       font-size: 22px;
       line-height: 32px;
     }
+  }
+
+  .infograph {
+    background-image: url('../images/info.png');
+    max-width: 850px;
+    height: 538px;
+    width: 100%;
+    margin: 0 auto;
+    background-size: 100%;
   }
 }
