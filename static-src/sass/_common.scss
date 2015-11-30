@@ -13,6 +13,7 @@ body {
 
 h1,h2,h3,h4 {
   text-align: center;
+  margin: 0;
 }
 
 h2 {
@@ -31,12 +32,50 @@ h5 {
   font-weight: 700;
 }
 
-a, a:hover, a:visited {
+a, a:hover, a:visited, a:active {
   text-decoration: none;
 }
 
+p {
+  text-align: justify;
+}
+
+.container {
+  @media (max-width: $screen-sm-min) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media (min-width: $screen-md-min) {
+    width: $container; // Override bootstrap container sizes
+  }
+
+  @media (min-width: $screen-lg-min) {
+    width: $container; // Override bootstrap container sizes
+  }
+
+  .row {
+    .col {
+      @media (max-width: $screen-sm-min) {
+        margin-bottom: 40px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+
 .block {
-  margin-bottom: 115px;
+  margin-bottom: 110px;
+  @media (max-width: $screen-sm-min) {
+    margin-bottom: 80px;
+  }
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
   h3 {
     margin-bottom: 60px;
   }
@@ -46,23 +85,19 @@ a, a:hover, a:visited {
   }
 }
 
-// Override bootstrap container sizes
-.container {
-  @media (min-width: $screen-md-min) {
-    width: $container;
-  }
-  @media (min-width: $screen-lg-min) {
-    width: $container;
-  }
-}
-
 .footer {
-  height: 140px;
+  height: 300px;
+  padding-top: 120px;
   .spiffy-logo {
     background-image: url('../images/spiffy-logo.png');
     width: 41px;
     height: 41px;
     display: block;
     margin: 0 auto;
+
+    @include retina {
+      background-image: url('../images/spiffy-logo@2x.png');
+      background-size: 41px 41px;
+    }
   }
 }

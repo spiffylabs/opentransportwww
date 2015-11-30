@@ -9,10 +9,14 @@
       width: 244px;
       height: 55px;
       margin: 0 auto;
+      @include retina {
+        background-image: url('../images/open_transport_logo@2x.png');
+        background-size: 244px 55px;
+      }
     }
 
     .text {
-      max-width: 577px;
+      max-width: 630px;
       margin: 0 auto;
       margin-top: 65px;
     }
@@ -21,10 +25,13 @@
   .infograph {
     width: 100%;
     height: auto;
-    .block-image {
-      margin: 0 auto 40px;
-      display: block;
+    .infograph-image {
       max-width: 850px;
+      width: 100%;
+      margin: 0 auto 40px;
+      &:before {
+        @include responsive-pseudo-bg-image(850, 523, '../images/info.png', '../images/info@2x.png');
+      }
     }
   }
 
@@ -36,15 +43,24 @@
     width: 100%;
     height: auto;
     overflow: hidden;
-    .block-image {
+    .plataform-image {
       max-width: 841px;
-      float: right;
+      width: 100%;
+      margin: 0 auto;
+      &:before {
+        @include responsive-pseudo-bg-image(841, 510, '../images/apps.png', '../images/apps@2x.png');
+        float: right;
+      }
     }
+
   }
 
   .projects {
+    margin-bottom: 95px;
     .row{
-
+      p {
+        text-align: left;
+      }
       a.col {
         display: block;
         cursor: pointer;
@@ -64,15 +80,31 @@
 
         &.shift:before {
           background-image: url('../images/logo_shift.png');
+          @include retina {
+            background-image: url('../images/logo_shift@2x.png');
+            background-size: 82px 14px;
+          }
         }
         &.move:before {
           background-image: url('../images/logo_move.png');
+          @include retina {
+            background-image: url('../images/logo_move@2x.png');
+            background-size: 78px 16px;
+          }
         }
         &.wheel:before {
           background-image: url('../images/logo_wheel.png');
+          @include retina {
+            background-image: url('../images/logo_wheel@2x.png');
+            background-size: 74px 22px;
+          }
         }
         &.estafette:before {
           background-image: url('../images/logo_estafette.png');
+          @include retina {
+            background-image: url('../images/logo_estafette@2x.png');
+            background-size: 114px 24px;
+          }
         }
       }
     }

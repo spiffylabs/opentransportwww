@@ -1,1 +1,33 @@
 $container: 960px;
+
+@mixin responsive-pseudo-bg-image($w, $h, $url, $url2x:null) {
+  content: "";
+  display: block;
+  @include responsive-bg-image($w, $h, $url, $url2x);
+}
+
+@mixin responsive-bg-image($w, $h, $url, $url2x:null) {
+  width: 100%;
+  background-image: url($url);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: (($h/$w)*100) + %; //ratio of the dimensions of the background image
+  margin: 0 auto;
+  @if ($url2x) {
+    @include retina {
+      background-image: url($url2x);
+    }
+  }
+}
+
+@mixin retina {
+  @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    @content;
+  }
+}
