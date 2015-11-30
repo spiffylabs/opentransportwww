@@ -1,34 +1,68 @@
+// Light = 300
+// Regular = 400
+// Bold = 700
 
-
-.landing-page {
-  header {
-    height: 500px;
-    padding: 165px 0 0;
-
-    .logo {
-      background-image: url('../images/open_transport_logo.png');
-      width: 244px;
-      height: 55px;
-      margin: 0 auto;
-    }
-
-    .text {
-      font-weight: 200;
-      text-align: center;
-      max-width: 577px;
-      margin: 0 auto;
-      margin-top: 65px;
-      font-size: 22px;
-      line-height: 32px;
-    }
+body {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  .sm {
+    font-size: 14px;
   }
+}
 
-  .infograph {
-    background-image: url('../images/info.png');
-    max-width: 850px;
-    height: 538px;
+h1,h2,h3,h4 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+a, a:hover, a:visited {
+  text-decoration: none;
+}
+
+.block {
+  margin-bottom: 115px;
+  h3 {
+    margin-bottom: 60px;
+  }
+  .block-image {
     width: 100%;
+    height: auto;
+  }
+}
+
+// Override bootstrap container sizes
+.container {
+  @media (min-width: $screen-md-min) {
+    width: $container;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: $container;
+  }
+}
+
+.footer {
+  height: 140px;
+  .spiffy-logo {
+    background-image: url('../images/spiffy-logo.png');
+    width: 41px;
+    height: 41px;
+    display: block;
     margin: 0 auto;
-    background-size: 100%;
   }
 }

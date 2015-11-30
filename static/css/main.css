@@ -5817,27 +5817,111 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+body {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+  body .sm {
+    font-size: 14px; }
+
+h1, h2, h3, h4 {
+  text-align: center; }
+
+h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300; }
+
+h3 {
+  font-size: 24px;
+  font-weight: 700; }
+
+h5 {
+  font-size: 16px;
+  font-weight: 700; }
+
+a, a:hover, a:visited {
+  text-decoration: none; }
+
+.block {
+  margin-bottom: 115px; }
+  .block h3 {
+    margin-bottom: 60px; }
+  .block .block-image {
+    width: 100%;
+    height: auto; }
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 960px; } }
+
+.footer {
+  height: 140px; }
+  .footer .spiffy-logo {
+    background-image: url("../images/spiffy-logo.png");
+    width: 41px;
+    height: 41px;
+    display: block;
+    margin: 0 auto; }
+
 .landing-page header {
   height: 500px;
-  padding: 165px 0 0; }
+  padding: 150px 0 0; }
   .landing-page header .logo {
     background-image: url("../images/open_transport_logo.png");
     width: 244px;
     height: 55px;
     margin: 0 auto; }
   .landing-page header .text {
-    font-weight: 200;
-    text-align: center;
     max-width: 577px;
     margin: 0 auto;
-    margin-top: 65px;
-    font-size: 22px;
-    line-height: 32px; }
+    margin-top: 65px; }
 
 .landing-page .infograph {
-  background-image: url("../images/info.png");
-  max-width: 850px;
-  height: 538px;
   width: 100%;
-  margin: 0 auto;
-  background-size: 100%; }
+  height: auto; }
+  .landing-page .infograph .block-image {
+    margin: 0 auto 40px;
+    display: block;
+    max-width: 850px; }
+
+.landing-page .try-plataform {
+  margin-bottom: 40px; }
+
+.landing-page .plataform-screenshot {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  .landing-page .plataform-screenshot .block-image {
+    max-width: 841px;
+    float: right; }
+
+.landing-page .projects .row a.col {
+  display: block;
+  cursor: pointer;
+  color: inherit; }
+
+.landing-page .projects .row .col:before {
+  content: '';
+  width: 100%;
+  height: 30px;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 20px; }
+
+.landing-page .projects .row .col.shift:before {
+  background-image: url("../images/logo_shift.png"); }
+
+.landing-page .projects .row .col.move:before {
+  background-image: url("../images/logo_move.png"); }
+
+.landing-page .projects .row .col.wheel:before {
+  background-image: url("../images/logo_wheel.png"); }
+
+.landing-page .projects .row .col.estafette:before {
+  background-image: url("../images/logo_estafette.png"); }

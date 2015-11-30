@@ -1,6 +1,1 @@
-//== Override bootstrap Container sizes
-
-// Medium screen / desktop
-$container-desktop:            (960px + $grid-gutter-width);
-// Large screen / wide desktop
-$container-large-desktop:      (960px + $grid-gutter-width);
+$container: 960px;
