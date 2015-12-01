@@ -5893,6 +5893,13 @@ p {
         background-image: url("../images/spiffy-logo@2x.png");
         background-size: 41px 41px; } }
 
+.not-found-page {
+  margin-top: 100px;
+  text-align: center;
+  line-height: 50px; }
+  .not-found-page p {
+    text-align: center; }
+
 .landing-page header {
   height: 90vh;
   min-height: 400px;
