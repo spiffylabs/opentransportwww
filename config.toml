@@ -1,10 +1,10 @@
 title = "Open Transport"
-baseurl = "www.opentransport.org"
+baseurl = "http://www.opentransport.org/"
 languageCode = "en-gb"
 layoutdir = "layouts"
 publishdir = "public"
 [params]
   description = "Open Transport builds tools, including web and mobile apps, for the transport and on-demand industries."
-  url = "www.opentransport.org"
+  url = "http://www.opentransport.org/"
 [author]
     name = "Spiffy"

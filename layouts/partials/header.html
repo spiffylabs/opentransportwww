@@ -5,13 +5,19 @@
 
     <title>{{ .Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
+    <meta name="author" content="{{ .Site.Author.name }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
     <link rel="icon"  type="image/png"  href="images/favicon.png">
 
     <!-- facebook metatags -->
     <meta property="og:url" content="{{ .Site.Params.url }}">
     <meta property="og:locale" content="{{ .Site.LanguageCode }}">
     <meta property="og:title" content="{{ .Title }}"/>
-    <meta property="og:image" content="images/open_transport_logo@2x.png"/>
+    <meta property="og:image" content="images/open_transport_logo.png"/>
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="244">
+    <meta property="og:image:height" content="55">
     <meta property="og:site_name" content="{{ .Site.Author.name }}"/>
     <meta property="og:description" content="{{ .Site.Params.description }}"/>
 
