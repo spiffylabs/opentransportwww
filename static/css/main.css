@@ -5894,8 +5894,15 @@ p {
         background-size: 41px 41px; } }
 
 .landing-page header {
-  height: 500px;
-  padding: 150px 0 0; }
+  height: 100vh;
+  min-height: 400px;
+  padding: 50px 0; }
+  .landing-page header .header-container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
   .landing-page header .logo {
     background-image: url("../images/open_transport_logo.png");
     width: 244px;
@@ -5906,8 +5913,8 @@ p {
         background-image: url("../images/open_transport_logo@2x.png");
         background-size: 244px 55px; } }
   .landing-page header .text {
-    max-width: 630px;
     margin: 0 auto;
+    max-width: 630px;
     margin-top: 65px; }
 
 .landing-page .infograph {
