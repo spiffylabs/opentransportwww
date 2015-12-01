@@ -1,17 +1,8 @@
 .landing-page {
 
   header {
-    height: 90vh;
-    min-height: 400px;
-    padding: 50px 0;
-
-    .header-container {
-      position: relative;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-    }
+    height: 500px;
+    padding: 150px 0 0;
 
     .logo {
       background-image: url('../images/open_transport_logo.png');
