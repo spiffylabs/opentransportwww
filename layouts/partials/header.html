@@ -13,13 +13,22 @@
     <!-- facebook metatags -->
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:title" content="{{ .Site.Params.name }}"/>
-    <meta property="og:site_name" content="{{ .Site.Params.name }}" />
     <meta property="og:image" content="{{ .Permalink }}images/opentransport.png"/>
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="550">
     <meta property="og:image:height" content="300">
     <meta property="og:site_name" content="{{ .Site.Author.name }}"/>
     <meta property="og:description" content="{{ .Site.Params.description }}"/>
+
+    <!-- twitter metatags -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="{{ .Site.Params.name }}" />
+    <meta property="twitter:creator" content="{{ .Site.Author.name }}" />
+    <meta property="twitter:title" content="{{ .Site.Params.name }}" />
+    <meta property="twitter:description" content="{{ .Site.Params.description }}" />
+    <meta property="twitter:image:src" content="{{ .Permalink }}images/opentransport.png" />
+    <meta property="twitter:image:width" content="550" />
+    <meta property="twitter:image:height" content="300" />
 
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="icon"  type="image/png"  href="images/favicon.png">
