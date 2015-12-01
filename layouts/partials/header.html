@@ -7,6 +7,15 @@
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="icon"  type="image/png"  href="images/favicon.png">
 
+    <!-- facebook metatags -->
+    <meta property="og:url" content="{{ .Site.Params.url }}">
+    <meta property="og:locale" content="{{ .Site.LanguageCode }}">
+    <meta property="og:title" content="{{ .Title }}"/>
+    <meta property="og:image" content="images/open_transport_logo@2x.png"/>
+    <meta property="og:site_name" content="{{ .Site.Author.name }}"/>
+    <meta property="og:description" content="{{ .Site.Params.description }}"/>
+
+
     {{ partial "css.includes.html" . }}
 </head>
 
