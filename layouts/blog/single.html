@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+
+
+
+<div class="blog-container row block">
+  <div class="col-md-2"></div>
+  <div class="col col-md-8">
+    <div class="post-single">
+      <h3>{{ .Title }}</h3>
+      <h4>{{ .Description }}</h4>
+
+      <div class="date-author">
+        <div class="date">{{ .Date.Format "2 Jan 2006" }}</div>
+        <div>by <span class="author">author name</span></div>
+      </div>
+
+      <p class="content">{{ .Content }}</p>
+
+    </div>
+  </div>
+  <div class="col col-md-2"></div>
+</div>
+
+
+
+{{ partial "footer.html" . }}

@@ -1,4 +1,6 @@
 $container: 960px;
+$grey: #6F6F6F;
+$blue: #337ab7;
 
 @mixin responsive-pseudo-bg-image($w, $h, $url, $url2x:null) {
   content: "";

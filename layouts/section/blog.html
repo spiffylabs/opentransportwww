@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+
+<div class="blog-container row block">
+  <div class="col-md-2"></div>
+  <div class="col col-md-8">
+    <ul class="summary">
+    {{ range (.Data.Pages.ByDate).Reverse }}
+      {{ .Render "summary"}}
+    {{ end }}
+    </ul>
+  </div>
+  <div class="col col-md-2"></div>
+</div>
+
+{{ partial "footer.html" . }}

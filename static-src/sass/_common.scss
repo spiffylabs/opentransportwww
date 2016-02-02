@@ -14,6 +14,10 @@ body {
 h1,h2,h3,h4 {
   text-align: center;
   margin: 0;
+  a {
+    color: inherit;
+    font-size: inherit;
+  }
 }
 
 h2 {
@@ -25,6 +29,11 @@ h2 {
 h3 {
   font-size: 24px;
   font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
+  color: $grey;
 }
 
 h5 {
@@ -82,6 +91,31 @@ p {
   .block-image {
     width: 100%;
     height: auto;
+  }
+}
+
+header {
+  padding: 100px 0 100px;
+
+  .logo {
+    background-image: url('../images/open_transport_logo.png');
+    width: 244px;
+    height: 55px;
+    @include retina {
+      background-image: url('../images/open_transport_logo@2x.png');
+      background-size: 244px 55px;
+    }
+  }
+
+  .navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    .item {
+      float: right;
+      margin-right: 40px;
+      line-height: 55px;
+    }
   }
 }
 

@@ -3,6 +3,7 @@ baseurl = "http://www.opentransport.org/"
 languageCode = "en-gb"
 layoutdir = "layouts"
 publishdir = "public"
+canonifyurls = true
 [params]
   name = "Open Transport"
   description = "Open Transport builds tools, including web and mobile apps, for the transport and on-demand industries."
