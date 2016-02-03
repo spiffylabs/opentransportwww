@@ -4,8 +4,16 @@ languageCode = "en-gb"
 layoutdir = "layouts"
 publishdir = "public"
 canonifyurls = true
+
 [params]
   name = "Open Transport"
   description = "Open Transport builds tools, including web and mobile apps, for the transport and on-demand industries."
+
 [author]
-    name = "Spiffy"
+  name = "Spiffy"
+
+[params.authors]
+  [params.authors.Tiago]
+    photo = "images/tiago.png"
+    name = "Tiago Pita"
+    bio = "Tiago is the founder and CEO of Spiffy Ltd - the company behind Open Transport."

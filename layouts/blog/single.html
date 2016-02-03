@@ -1,6 +1,6 @@
+{{ $author := index .Site.Params.authors .Params.author }}
+
 {{ partial "header.html" . }}
-
-
 
 <div class="blog-container row block">
   <div class="col-md-2"></div>
@@ -11,12 +11,21 @@
 
       <div class="date-author">
         <div class="date">{{ .Date.Format "2 Jan 2006" }}</div>
-        <div>by <span class="author">author name</span></div>
+        <div>by <span class="author">{{ $author.name }}</span></div>
       </div>
 
       <p class="content">{{ .Content }}</p>
-
     </div>
+
+    <div class="author-info-container">
+      <div class="author-photo" style="background-image: url('../../{{ $author.photo }}')"></div>
+      <div class="author-info">
+        <div class="about">About the author:</div>
+        <h4 class="author-name">{{ $author.name }}</h4>
+        <div class="author-bio">{{ $author.bio }}</div>
+      </div>
+    </div>
+
   </div>
   <div class="col col-md-2"></div>
 </div>

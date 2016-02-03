@@ -6067,3 +6067,27 @@ header {
 
 .blog-container .post-single .content {
   margin-top: 80px; }
+
+.blog-container .author-info-container {
+  position: relative;
+  height: 120px;
+  margin-top: 100px; }
+  .blog-container .author-info-container .author-photo {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    float: left;
+    margin-top: 30px; }
+  .blog-container .author-info-container .author-info {
+    position: absolute;
+    left: 100px;
+    right: 0px; }
+    .blog-container .author-info-container .author-info .about {
+      font-size: 14px;
+      color: #6F6F6F; }
+    .blog-container .author-info-container .author-info .author-name {
+      text-align: left;
+      color: inherit;
+      margin: 10px 0 20px; }
+    .blog-container .author-info-container .author-info .author-bio {
+      color: #6F6F6F; }

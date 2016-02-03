@@ -55,4 +55,34 @@
       margin-top: 80px;
     }
   }
+
+  .author-info-container {
+    position: relative;
+    height: 120px;
+    margin-top: 100px;
+    .author-photo {
+      width: 70px;
+      height: 70px;
+      background-size: cover;
+      float: left;
+      margin-top: 30px;
+    }
+    .author-info {
+      position: absolute;
+      left: 100px;
+      right: 0px;
+      .about {
+        font-size: 14px;
+        color: $grey;
+      }
+      .author-name {
+        text-align: left;
+        color: inherit;
+        margin: 10px 0 20px;
+      }
+      .author-bio {
+        color: $grey;
+      }
+    }
+  }
 }

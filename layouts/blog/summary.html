@@ -1,3 +1,5 @@
+{{ $author := index .Site.Params.authors .Params.author }}
+
 <li class="post">
   <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
   <h4>{{ .Description }}</h4>
@@ -9,6 +11,7 @@
   <div class="date-author">
     <span class="date">{{ .Date.Format "2 Jan 2006" }}</span>
     -
-    <span class="author">author name</span>
+    <span class="author">{{ $author.name }}</span>
+
   </div>
 </li>
