@@ -1,5 +1,6 @@
 title = "Open Transport | Tools for the transport and on-demand industries"
 baseurl = "http://www.opentransport.org/"
+baseURL = ""
 languageCode = "en-gb"
 layoutdir = "layouts"
 publishdir = "public"
