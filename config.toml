@@ -3,7 +3,7 @@ baseurl = "http://www.opentransport.org/"
 languageCode = "en-gb"
 layoutdir = "layouts"
 publishdir = "public"
-canonifyurls = true
+relativeURLs = true
 
 [params]
   name = "Open Transport"
