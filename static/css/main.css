@@ -5906,7 +5906,7 @@ header {
       line-height: 55px; }
 
 .footer {
-  height: 300px;
+  height: 100px;
   padding-top: 120px; }
   .footer .spiffy-logo {
     background-image: url("../images/spiffy-logo.png");
