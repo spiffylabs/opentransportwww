@@ -22,11 +22,11 @@ MetaDataFormat = "yaml"
   [params.devs.Mateusz]
     photo = "images/devs/mateusz.jpg"
     name = "Mateusz"
-    role = "Frontend developer"
+    role = "Frontend Developer"
   [params.devs.Luisa]
     photo = "images/devs/luisa.jpg"
     name = "Luisa"
-    role = "Frontend developer"
+    role = "Frontend Developer"
   [params.devs.Pedro]
     photo = "images/devs/pedro.jpg"
     name = "Pedro"
