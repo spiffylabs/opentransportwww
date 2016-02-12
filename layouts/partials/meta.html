@@ -1,5 +1,27 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{ .Description }}">
-<meta name="author" content="Open Transport">
+<meta name="author" content="{{ .Site.Author.name }}">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="{{if .IsPage}}{{if .Description}}{{ .Description }}{{else}}{{.Site.Params.description}}{{end}}{{else}}{{.Site.Params.description}}{{end}}">
+
+<!-- facebook metatags -->
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ .Site.Params.name }}"/>
+<meta property="og:image" content="{{ .Site.BaseURL }}images/opentransport.png"/>
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="550">
+<meta property="og:image:height" content="300">
+<meta property="og:site_name" content="{{ .Site.Author.name }}"/>
+<meta property="og:description" content="{{if .IsPage}}{{if .Description}}{{ .Description }}{{else}}{{.Site.Params.description}}{{end}}{{else}}{{.Site.Params.description}}{{end}}"/>
+
+<!-- twitter metatags -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="{{ .Permalink }}" />
+<meta property="twitter:creator" content="{{ .Site.Author.name }}" />
+<meta property="twitter:title" content="{{ .Site.Params.name }}" />
+<meta property="twitter:description" content="{{if .IsPage}}{{if .Description}}{{ .Description }}{{else}}{{.Site.Params.description}}{{end}}{{else}}{{.Site.Params.description}}{{end}}" />
+<meta property="twitter:image:src" content="{{ .Site.BaseURL }}images/opentransport.png" />
+<meta property="twitter:image:width" content="550" />
+<meta property="twitter:image:height" content="300" />

@@ -2,6 +2,7 @@
 title: "Decentralised transport network"
 date: "2016-02-11"
 author: "Tiago"
+description: "If you work in the food delivery, taxi and chauffeur businesses, courier or any delivery business: Try our system, talk with us and your business could have a technology that is innovating faster than any other."
 ---
 
 I started working in the transport industry almost 6 years ago and spoke with hundreds, if not thousands, of fleet owners on every continent and from several industries. I had chats with the drivers and always took their feedback onboard. They never took mine however, always saying my software products were too futuristic and not for the real world.

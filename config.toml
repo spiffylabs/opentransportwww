@@ -3,11 +3,11 @@ baseurl = "http://www.opentransport.org/"
 languageCode = "en-gb"
 layoutdir = "layouts"
 publishdir = "public"
+MetaDataFormat = "yaml"
 
 [params]
   name = "Open Transport"
   description = "Open Transport builds tools, including web and mobile apps, for the transport and on-demand industries."
-  meta = "If you work in the food delivery, taxi and chauffeur businesses, courier or any delivery business: Try our system, talk with us and your business could have a technology that is innovating faster than any other."
 
 [author]
   name = "Spiffy"
