@@ -17,3 +17,33 @@ MetaDataFormat = "yaml"
     photo = "images/tiago.png"
     name = "Tiago Pita"
     bio = "Tiago is the product architect for Open Transport and an advocate of open technology."
+
+[params.devs]
+  [params.devs.Mateusz]
+    photo = "images/devs/mateusz.jpg"
+    name = "Mateusz"
+    role = "Frontend developer"
+  [params.devs.Luisa]
+    photo = "images/devs/luisa.jpg"
+    name = "Luisa"
+    role = "Frontend developer"
+  [params.devs.Pedro]
+    photo = "images/devs/pedro.jpg"
+    name = "Pedro"
+    role = "Backend Developer"
+  [params.devs.Anya]
+    photo = "images/devs/anya.png"
+    name = "Anya"
+    role = "iOS Developer"
+  [params.devs.Steve]
+    photo = "images/devs/steve.jpg"
+    name = "Steve"
+    role = "Android Developer"
+  [params.devs.Gui]
+    photo = "images/devs/gui.jpg"
+    name = "Guillermo"
+    role = "Designer"
+  [params.devs.Tiago]
+    photo = "images/devs/tiago.jpg"
+    name = "Tiago"
+    role = "Product Architect"

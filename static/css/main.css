@@ -6091,3 +6091,23 @@ header {
       margin: 10px 0 20px; }
     .blog-container .author-info-container .author-info .author-bio {
       color: #6F6F6F; }
+
+.collective-container .pics-container .col {
+  text-align: center;
+  margin-top: 50px; }
+  .collective-container .pics-container .col .photo-container {
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    background: url(@sprite-url) no-repeat #cccccc; }
+    .collective-container .pics-container .col .photo-container .photo {
+      background-position: center center;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover; }
+  .collective-container .pics-container .col .name {
+    font-weight: 700;
+    margin-top: 20px; }
