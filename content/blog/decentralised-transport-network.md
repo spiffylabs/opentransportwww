@@ -19,7 +19,7 @@ This post is about Open Transport - what it means to be open and more important 
 <br>
 ##### Open
 
-Open means every can access it with o restrictions.: You can access Open Transport API and know the availability of drivers world wide for free.
+Open means every can access it with no restrictions.: You can access Open Transport API and know the availability of drivers world wide for free.
 
 
 <br>
