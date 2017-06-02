@@ -1,8 +1,8 @@
 ---
 title: "Decentralised transport network"
-date: "2016-02-11"
+date: "2017-06-02"
 author: "Tiago"
-description: "If you work in the food delivery, taxi and chauffeur businesses, courier or any delivery business: Try our system, talk with us and your business could have a technology that is innovating faster than any other."
+description: "If you work in the food delivery, taxi and chauffeur businesses, courier or any delivery business: you need to connect."
 ---
 
 I started working in the transport industry almost 6 years ago and spoke with hundreds, if not thousands, of fleet owners on every continent and from several industries. I had chats with the drivers and always took their feedback onboard. They never took mine however, always saying my software products were too futuristic and not for the real world.
@@ -19,28 +19,23 @@ This post is about Open Transport - what it means to be open and more important 
 <br>
 ##### Open
 
-Open means you can own it and everyone can own it: We have built an amazing, fully-featured dispatch system that you can host and let fleets use as a service. You can start your own dispatch business for any industry today!
+Open means every can access it with o restrictions.: You can access Open Transport API and know the availability of drivers world wide for free.
 
-Your system connects to other systems with free integration: We don’t make a “cut” in royalties or commissions. The system is yours and you host it on your servers.
-
-Everyone can contribute and help Open Transport to grow.
-
-Our license is more open than Open Source!
 
 <br>
 ##### Decentralised
 
-We are developing a decentralised connection that connects all deployments and drivers, matching demand with supply. This means more work for the drivers and more availability for the passengers and clients.
+We are developing a decentralised connection that connects the world to vehicles, demand with supply. This means more work for the drivers and more availability for the passengers and clients.
 
 We don’t control it, nobody does. Is on the Internet, on your servers and everyone’s servers.
 
 <br>
 ##### Why are we doing this?
 
-We have many reasons, but perhaps you are interested to know how we make money? We generate revenues from developing software. We charge clients for any customizations required and any help they may need. We also charge a small one-time license fee. We are growing and will grow faster to make sure we offer unique and innovative features.
+We have many reasons, but perhaps you are interested to know how we make money? We generate revenues from helping and facilitating the billing between demand and suppliers.
 
 The advice I offered to fleets over the last 6 years but which fell on deaf ears is simple: Get together, connect, share supply and demand, but don’t give this control to one company that promises to do it for you.
 
-If you work in the food delivery, taxi and chauffeur businesses, courier or any delivery business: Try our system, talk with us and your business could have a technology that is innovating faster than any other.
+If you work in the food delivery, taxi and chauffeur businesses, courier or any delivery business: Try our system, talk with us and your business can have access to the biggest transport network the world has ever seen.
 
 Please reach out and send an email to [hello@opentransport.org](mailto:hello@opentransport.org)
