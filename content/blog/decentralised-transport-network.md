@@ -13,7 +13,7 @@ This industry is very important: Everything you buy, from food to clothes, is tr
 
 Big international players with very deep pockets such as Uber or Amazon are attempting to control the entire transport chain. Their services are efficient, simple and smart. And they don’t face any competition.
 
-This post is about Open Transport - what it means to be open and more important than everything else: What it means to be open and accessible.
+What it means to be open and accessible?
 
 
 <br>
