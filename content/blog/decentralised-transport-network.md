@@ -5,7 +5,7 @@ author: "Tiago"
 description: "If you work in the food delivery, taxi and chauffeur businesses, courier or any delivery business: you need to connect."
 ---
 
-I started working in the transport industry almost 6 years ago and spoke with hundreds, if not thousands, of fleet owners on every continent and from several industries. I had chats with the drivers and always took their feedback onboard. They never took mine however, always saying my software products were too futuristic and not for the real world.
+I started working in the transport industry 6 years ago and spoke with hundreds, if not thousands, of fleet owners on every continent and from several industries. I had chats with the drivers and always took their feedback onboard. They never took mine however, always saying my software products were too futuristic and not for the real world.
 
 Today, established fleets that have been operating for several decades are closing down and going into insolvency. Although this is mainly happening to the private hire and the taxi industry, it can happen very quickly to any transport industry.
 
@@ -19,7 +19,7 @@ This post is about Open Transport - what it means to be open and more important 
 <br>
 ##### Open
 
-Open means every can access it with no restrictions.: You can access Open Transport API and know the availability of drivers world wide for free.
+Open means everyone can access it with no restrictions.: You can access Open Transport API and know the availability of vehicles worldwide for free.
 
 
 <br>
