@@ -9,11 +9,11 @@ I started working in the transport industry 6 years ago and spoke with hundreds,
 
 Today, established fleets that have been operating for several decades are closing down and going into insolvency. Although this is mainly happening to the private hire and the taxi industry, it can happen very quickly to any transport industry.
 
-This industry is important: Everything you buy, from food to clothes, has been transported several times. A large percentage of the amount that you pay is the transport cost. Not just the final step when you receive the item from the warehouse, but from the raw material stage. From the assembly line to the warehouse, from the farmer to the restaurant and from the restaurant to your door step.
+This industry is very important: Everything you buy, from food to clothes, is transported several times until it gets to you. A large percentage of the price that you pay is the transport cost. From the raw material stage, from the assembly line to the warehouse, from the farmer to the restaurant and from the restaurant to your door step.
 
-Big international players with very deep pockets such as Uber or Amazon are attempting to control the entire transport chain. Their services are great, simple and smart. And they don’t face any competition.
+Big international players with very deep pockets such as Uber or Amazon are attempting to control the entire transport chain. Their services are efficient, simple and smart. And they don’t face any competition.
 
-This post is about Open Transport - what it means to be open and more important than everything else: What it means to be decentralised.
+This post is about Open Transport - what it means to be open and more important than everything else: What it means to be open and accessible.
 
 
 <br>
