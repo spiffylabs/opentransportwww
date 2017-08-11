@@ -27,6 +27,6 @@ We have many reasons, but perhaps you are interested to know how we make money? 
 
 The advice I offered to fleets over the last 6 years but which fell on deaf ears is simple: Get together, connect, share supply and demand.
 
-If you work in the food delivery, taxi and chauffeur businesses, courier or any delivery business: Try our system, talk with us and your business can have access to the biggest transport network the world has ever seen.
+If you work in the food delivery, taxi and chauffeur businesses, courier or any delivery business: Try our system, get in touch with us and your business can have access to the biggest transport network the world has ever seen.
 
 Please reach out and send an email to [hello@opentransport.org](mailto:hello@opentransport.org)
