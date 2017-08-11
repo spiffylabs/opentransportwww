@@ -21,20 +21,11 @@ What it means to be open and accessible?
 
 Open means everyone can access it with no restrictions.: You can access Open Transport API and know the availability of vehicles worldwide for free.
 
-
-<br>
-##### Decentralised
-
-We are developing a decentralised connection that connects the world to vehicles, demand with supply. This means more work for the drivers and more availability for the passengers and clients.
-
-We don’t control it, nobody does. Is on the Internet, on your servers and everyone’s servers.
-
-<br>
 ##### Why are we doing this?
 
 We have many reasons, but perhaps you are interested to know how we make money? We generate revenues from helping and facilitating the billing between demand and suppliers.
 
-The advice I offered to fleets over the last 6 years but which fell on deaf ears is simple: Get together, connect, share supply and demand, but don’t give this control to one company that promises to do it for you.
+The advice I offered to fleets over the last 6 years but which fell on deaf ears is simple: Get together, connect, share supply and demand.
 
 If you work in the food delivery, taxi and chauffeur businesses, courier or any delivery business: Try our system, talk with us and your business can have access to the biggest transport network the world has ever seen.
 
